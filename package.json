@@ -1,0 +1,20 @@
+{
+  "name": "study-templates",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/config/*",
+    "packages/shared/*"
+  ],
+  "engines": {
+    "node": ">=18.x"
+  },
+  "packageManager": "npm@10.2.4",
+  "dependencies": {
+    "turborepo": "^0.0.1"
+  },
+  "scripts": {
+    "dev": "turbo run dev --parallel"
+  }
+}
