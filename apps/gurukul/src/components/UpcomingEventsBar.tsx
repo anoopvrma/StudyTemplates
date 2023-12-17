@@ -10,13 +10,13 @@ function FormattedDate({ date }: { date: string }) {
     return (
         <Box sx={{
             background: theme.palette.secondary.main,
-            color: 'white',
+            color: theme.palette.secondary.contrastText,
             p: 1
         }}
             alignItems="center"
             justifyContent="center">
             <Typography variant='h5' textAlign={'center'}>{dateObj.getDate()}</Typography>
-            <Typography variant='body2' textAlign={'center'}>{monthNamesShort[dateObj.getMonth()]}</Typography>
+            <Typography variant='body2' textAlign={'center'} fontWeight={'500'}>{monthNamesShort[dateObj.getMonth()]}</Typography>
         </Box>
     )
 }
