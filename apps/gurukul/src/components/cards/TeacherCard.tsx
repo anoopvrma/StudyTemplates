@@ -14,7 +14,7 @@ export function TeacherCard({ image, name, role, qualification }: { image: strin
             <Grid container spacing={2}>
                 <Grid item sx={{ width: '140px' }}>
                     <Box width={120} height={120} sx={{ overflow: 'hidden' }}>
-                        <Image src={image} alt={name} width={120} height={120} />
+                        <Image src={image} alt={name} width={120} height={120} style={{ objectFit: "cover" }} />
                     </Box>
                 </Grid>
                 <Grid item xs>
