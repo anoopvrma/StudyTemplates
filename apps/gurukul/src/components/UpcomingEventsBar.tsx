@@ -16,7 +16,7 @@ function FormattedDate({ date }: { date: string }) {
             alignItems="center"
             justifyContent="center">
             <Typography variant='h5' textAlign={'center'}>{dateObj.getDate()}</Typography>
-            <Typography variant='body2' textAlign={'center'} fontWeight={'500'}>{monthNamesShort[dateObj.getMonth()]}</Typography>
+            <Typography variant='body1' textAlign={'center'}>{monthNamesShort[dateObj.getMonth()]}</Typography>
         </Box>
     )
 }
