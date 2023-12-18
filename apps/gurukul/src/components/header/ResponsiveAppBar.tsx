@@ -110,8 +110,8 @@ function ResponsiveAppBar({ window }: { window?: () => Window }) {
           <Box sx={{ flexGrow: 1, display: { md: 'flex', lg: 'none' } }}>
             <IconButton
               size="large"
-              aria-label="Open navigation bar"
-              aria-controls="menu-appbar"
+              aria-label="Navigation bar"
+              aria-controls="navigation-bar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
               color="inherit"
